@@ -29,7 +29,7 @@ public class AppClasses {
         scanner.nextLine();
         System.out.println("Digite seu nome");
         cliente3.setNome(scanner.nextLine());
-        
+        scanner.close();
         System.out.println(cliente3.getNome()); 
 
 
