@@ -25,7 +25,7 @@ public class AppLista {
         listaClientes.add(cliente3);
 
         //listaClientes.remove(0); //para remover na posição da lista
-       //listaClientes.remove(cliente2);// para remover a primeira aparição do elemento
+       //listaClientes.remove(cliente2); // para remover a primeira aparição do elemento
        for (Cliente cliente : listaClientes) {
         System.err.println(cliente);
        }
