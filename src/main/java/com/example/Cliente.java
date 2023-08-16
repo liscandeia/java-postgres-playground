@@ -73,4 +73,8 @@ public class Cliente {
    public void setCpf(String cpf) {
         this.cpf = cpf;
     }
+    //método para imprimir o objeto cliente
+    public String toString (){
+        return "Cliente: " + nome + " |Sexo: " + sexo;
+    }
 }
